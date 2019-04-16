@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-material-ui",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "umi plugin for material-ui",
   "authors": {
     "name": "Leza Lutonda (lemol)",
@@ -10,14 +10,14 @@
   "peerDependencies": {
     "umi": "2.x"
   },
-  "main":  "lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build":  "umi-tools build",
+    "build": "umi-tools build",
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
   },
   "devDependencies": {
-    "umi-tools":  "*",
-    "np": "^3.0.4"
+    "np": "^3.0.4",
+    "umi-tools": "*"
   },
   "files": [
     "lib",
